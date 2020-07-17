@@ -25,8 +25,8 @@ protected routes :
 - /users/
 
 # body
-username : root
-password : root
+"username" : "root",
+"password" : "root"
 
 
 ## ENDPOINTS :
