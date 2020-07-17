@@ -19,14 +19,14 @@ double click server.exe
 
 ## Authenticate
 
-use "auth-token" Header to use authentication
+### body to get token
+"username" : "root",
+"password" : "root"
+
+use "auth-token" Header as key to use authentication and token as value
 
 protected routes :
 - /users/
-
-### body
-"username" : "root",
-"password" : "root"
 
 
 ## ENDPOINTS :
