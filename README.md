@@ -24,9 +24,14 @@ use "auth-token" Header to use authentication
 protected routes :
 - /users/
 
+# body
+username : root
+password : root
 
 
 ## ENDPOINTS :
+
+# url: http://localhost:5000/
 
 ---
 
